@@ -302,7 +302,7 @@ text
 
 ## 📄 许可证
 
-本项目基于 **MIT License** 发布。详见 [LICENSE](https://license/)。
+本项目基于 **MIT License** 发布。详见 [License](LICENSE)。
 
 ## ⭐ Star 历史
 
