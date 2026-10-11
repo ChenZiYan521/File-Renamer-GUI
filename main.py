@@ -1182,7 +1182,7 @@ class FileRenamerApp:
             Messagebox.show_error(err, "错误", parent=self.root)
             return False
 
-        return True
+        return Truegit 
 
     # ==================================================================
     # 窗口居中
