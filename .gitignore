@@ -11,3 +11,4 @@ _dist_check/
 code_sum.py
 code_sunpydocs
 test
+/docs
