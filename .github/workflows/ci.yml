@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # 测试只覆盖无 GUI 依赖的模块（helpers / rename_core / file_ops），
+      # 因此无需安装 ttkbootstrap 与 tkinter。
+      - name: 运行单元测试
+        run: python -m unittest discover -s tests -v

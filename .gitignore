@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# 构建产物
+build/
+dist
+_dist_check/
+
+# 历史单文件版本（不参与构建与测试）
+code_sum.py
+code_sunpydocs
+test
